@@ -1,0 +1,219 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppAnzuNative">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppAnzuNative.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppAnzuUnity">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppAnzuUnity.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppAnzuUtilities">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppAnzuUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppBitstream">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppBitstream.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppCinemachine">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppCinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppFacepunch.Steamworks.Win64">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppFacepunch.Steamworks.Win64.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppFloatCrusher">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppFloatCrusher.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppMono.Security">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppMono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppNewtonsoft.Json">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppNewtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppQuatCompress">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppQuatCompress.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppRewired_Core">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppRewired_Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSentry">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSentry.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSentry.Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSentry.Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSentry.System.Collections.Immutable">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSentry.System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSentry.System.Memory">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSentry.System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSentry.System.Numerics.Vectors">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSentry.System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSentry.System.Reflection.Metadata">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSentry.System.Reflection.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSentry.System.Text.Encodings.Web">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSentry.System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSentry.System.Text.Json">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSentry.System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSentry.System.Threading.Tasks.Extensions">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSentry.System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSentry.Unity">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSentry.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Configuration">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSystem.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Core">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Data">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSystem.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Net.Http">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSystem.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Numerics">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSystem.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Runtime.Serialization">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSystem.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Transactions">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSystem.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Xml">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSystem.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Xml.Linq">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Il2CppSystem.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="SlapshotReplayFiles">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\SlapshotReplayFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="UnhollowerBaseLib">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnhollowerBaseLib.dll</HintPath>
+    </Reference>
+    <Reference Include="UnhollowerRuntimeLib">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnhollowerRuntimeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>..\..\SlapshotReplayFiles\SlapshotReplayFiles\bin\Debug\net6.0\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
