@@ -79,7 +79,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Slapshot Training Packs Screen Shot][product-screenshot]](https://www.nexusmods.com/slapshotrebound/mods/3)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -168,4 +168,4 @@ Project Link: [https://github.com/rromero123102/TrainingPacksSlapshot](https://g
 [license-url]: https://github.com/rromero123102/TrainingPacksSlapshot/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/robert-romero-a61403291
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: [images/screenshot.png](https://staticdelivery.nexusmods.com/mods/5389/images/3/3-1695435860-271703098.png)https://staticdelivery.nexusmods.com/mods/5389/images/3/3-1695435860-271703098.png
