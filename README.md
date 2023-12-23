@@ -37,12 +37,12 @@
 <h3 align="center">Slapshot Training Packs</h3>
 
   <p align="center">
-    project_description
+    This is a mod for Slapshot Rebound which allows the creation and sharing of training packs.
     <br />
     <a href="https://github.com/rromero123102/TrainingPacksSlapshot"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/rromero123102/TrainingPacksSlapshot">View Demo</a>
+    <a href="https://www.nexusmods.com/slapshotrebound/mods/3">View Demo</a>
     ·
     <a href="https://github.com/rromero123102/TrainingPacksSlapshot/issues">Report Bug</a>
     ·
@@ -81,7 +81,6 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `rromero123102`, `TrainingPacksSlapshot`, `robert-romero-a61403291`, `gmail.com`, `robromero389`, `Slapshot Training Packs`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,7 +88,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
+[![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=for-the-badge&logo=unity)](https://unity3d.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
