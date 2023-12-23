@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/rromero123102/TrainingPacksSlapshot">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://pbs.twimg.com/profile_images/1317646328927760390/I81XDoXL_400x400.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Slapshot Training Packs</h3>
