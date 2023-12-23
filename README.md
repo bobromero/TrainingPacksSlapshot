@@ -66,10 +66,9 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#Instructions"></a>Instructions</li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -104,20 +103,20 @@ This is a Mod that requires Melon Loader and of course Slapshot Rebound. Downloa
 
 All instructions can be found on the discord, but you will need .net 6 or later to use the mod.
 
-### Installation
+### Instructions
 
+The steps to make a pack are as follows,
+1. Set up a scene by setting spawns with C for player spawn F for puck Spawn and G for puck call location.
+2. Once you are happy with a scene, press f1 and click save as scene.
+   It is now saved and you can reset the ice and set up a new scene.
+3. Once you are happy with your scenes, you can press save as pack, and it will prompt you with a text box.
+4. Type the name of your pack, normal file naming conventions, and click save as pack again.
 
+The pack is created and now in your slapshot folder, you will see a new folder called Training packs, and the pack will be in there.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+You can share this file with others who have the mod, and they can play the scenes you set up.
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Putting packs in your training pack folder will allow you to load them in game.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,7 +126,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [Robert Romero][linkedin-url] - robromero389@gmail.com.com
+Robert Romero - [LinkedIn][linkedin-url] - robromero389@gmail.com.com
 
 Project Link: [https://github.com/rromero123102/TrainingPacksSlapshot](https://github.com/rromero123102/TrainingPacksSlapshot)
 
