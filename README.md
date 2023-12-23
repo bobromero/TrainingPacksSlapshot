@@ -79,7 +79,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Slapshot Training Packs Screen Shot][product-screenshot]](https://www.nexusmods.com/slapshotrebound/mods/3)
+[![Slapshot Training Packs Screen Shot](https://staticdelivery.nexusmods.com/mods/5389/images/3/3-1695435860-271703098.png)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
