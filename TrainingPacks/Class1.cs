@@ -89,9 +89,9 @@ namespace TrainingPacks {
                             Melon<Trainer>.Logger.Msg("Error Can't spawn player twice");
                         }
                         if (!game.customPlayerSpawn) {
-                            game.GetPlayerByUUID(game.localPlayer.UUID).playerController.SetPosition(ObstaclePosToVector3(obstacle));
-                            game.GetPlayerByUUID(game.localPlayer.UUID).playerController.SetStickRotation(obstacle.rotation);
-                            game.localPlayer.RequestSetPlayerSpawn();
+                            game.localPlayer.playerController.SetPosition(ObstaclePosToVector3(obstacle));
+                            game.localPlayer.playerController.SetStickRotation(obstacle.rotation);
+                            game.localPlayer.RequestSetPlayerSpawn();                                
                         }
                         break;
                     case Obstacle.Puck:
